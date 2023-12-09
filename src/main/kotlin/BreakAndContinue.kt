@@ -25,8 +25,8 @@ fun keyBreak() {
 
 fun keyContinue() {
 
-    // 1 % 2 == 1 --> genap
-    // 1 % 2 == 0 --> ganjil
+    // 1 % 2 == 1 --> gajil
+    // 1 % 2 == 0 --> genap
 
     for (i in 1..100) {
         if (i % 2 == 1) {
