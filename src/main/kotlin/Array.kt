@@ -16,9 +16,9 @@ fun main() {
 
 fun arrayNullAble() {
 
-    // array String boleh di set null, karna ? --> Array<String?>
+    // array String boleh di set null, karna tanda '?' --> Array<String?>
     // array di kotlin tidak dinamis, panjangnya akan selalu mengikuti yang di set
-    val squad: Array<String?> = arrayOfNulls(5)
+    val squad: Array<String?> = arrayOfNulls(5) // set array 5, hitung array dari index 0.. jadinya nilai array - 1
     squad[0] = "satu"
     squad[1] = "dua"
     squad[2] = "tiga"

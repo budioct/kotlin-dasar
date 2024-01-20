@@ -13,13 +13,13 @@ fun main() {
 
         return when (value) {
             1 -> 1
-            else -> value * factorialRecursive(value - 1)
+            else -> value * factorialRecursive(value - 1) // recursive function memangil dirinya sendiri.. biasanya digunakan untuk operasi factorial
         }
 
 //        return if (value == 1) {
 //            value
 //        } else {
-//            value * factorialRecursive(value - 1)
+//            value * factorialRecursive(value - 1) // (10 -1), (9 -1), (8 -1), n
 //        }
     }
 

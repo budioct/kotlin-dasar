@@ -1,5 +1,7 @@
 fun main() {
 
+    // return if() dan return when().. mempersingkat key return tidak di perlukan di block true dan block false
+
     // return common
     fun sayHello1(name: String = ""): String {
         if (name == "") {

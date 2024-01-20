@@ -38,7 +38,7 @@ fun augmentedAssigments(){
     val item2 = 100
     total += item2
 
-    println(total)
+    println("augmentedAssigments $total ")
 
 }
 

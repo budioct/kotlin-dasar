@@ -11,6 +11,8 @@ fun main() {
 
 fun whenExpression1() {
 
+    // When Expression
+
     val nilai: String = "A"
 
     when (nilai) {
@@ -38,10 +40,13 @@ fun whenExpression1() {
 }
 
 fun whenExpression2() {
+
+    // When Expression Multiple Option
+
     val nilai: String = "G"
 
     when (nilai) {
-        "A", "F", "G" -> println("Amazing") // multiple option
+        "A", "F", "G" -> println("Amazing") // multiple option = if(A || F || G)
         "B" -> println("Good")
         "C" -> println("Not Bad")
         "D" -> println("Bad")
@@ -52,23 +57,29 @@ fun whenExpression2() {
 
 fun whenExpression3() {
 
+    // When Expression In
+
     val nilai: String = "A"
     val passValue = arrayOf("A", "B", "C")
 
+    // if(passValue.contains(nilai)) = apakah nilai terkadung dalam passValue
     when (nilai) {
-        in passValue -> println("Pass") // if nested loops
-        !in passValue -> println("Try Again")
+        in passValue -> println("Pass") // in = condition true
+        !in passValue -> println("Try Again") // !in = condition false
     }
 
+    // kepake di OOP Kotlin
     val name = "budhi"
     when(name) {
-        is String -> println("Name is string") // equals()
-        !is String -> println("Name is not string")
+        is String -> println("Name is string") // is = condition data type true
+        !is String -> println("Name is not string") // !is = condition data type false
     }
 
 }
 
 fun whenExpression4(){
+
+    // when{body expression}
 
     val examValue = 90
     when{

@@ -5,6 +5,10 @@ fun main() {
 
     // val/var namaVariable:TipeData = value
 
+    /**
+     * Direkomendasikan menggunakan Immutable dibanding Mutable data
+     */
+
     val firstName = "budhi"
     val lastName = "oct"
 
@@ -18,16 +22,17 @@ fun main() {
 
 fun variableNullAble() {
 
-    // ? keyword bisa memaksa variable menjadi null untuk suatu kebutuhan
+    // ? tanda keyword bisa memaksa variable menjadi null untuk suatu kebutuhan
+    // tidak ada ?.. Exception: Null can not be a value of a non-null type Int
 
-    var value: Int? = null
+    //var value: Int = null // Error
     var data: String? = null
 
-    println(value)
+    //println(value)
     println(data)
 
 }
 
-// constant adalah variable immutable untuk keperluan variable global bisa diakses dimanapun
+// constant variable adalah immutable data, untuk keperluan variable global bisa diakses dimanapun
 const val APP: String = "Belajar Kotlin"
 const val VERSION: String = "0.0.1"

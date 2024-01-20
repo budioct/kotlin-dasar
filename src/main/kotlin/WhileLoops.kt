@@ -8,7 +8,7 @@ fun whileLoops() {
 
     var i: Int = 0
 
-    var totalNilai = 0
+    var totalNilai : Int = 0
     while (i < 10) {
         i++
         totalNilai += i

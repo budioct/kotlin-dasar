@@ -1,7 +1,7 @@
 fun main() {
 
-    // var keyword untuk membuat variable di kotling
-    // val keyword untuk membuat variable di kotling
+    // var keyword untuk membuat variable di kotlin
+    // val keyword untuk membuat variable di kotlin
 
     var name:String = "budhi"
     var hobby:String = "fotball"

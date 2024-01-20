@@ -25,6 +25,9 @@ fun concatString(){
 
 fun stringTamplate(){
 
+    // $ tanda String template sederhana
+    // ${ isi ekspresi } tanda String template ekpresi yang kompleks
+
     var data1: String = "data 1"
     var data2: String = "data 2"
 

@@ -33,6 +33,6 @@ fun finalValue(name: String, vararg values: Int) {
         total += value
     }
     total /= values.size
-    println("final value $name = $total")
+    println("finalValue() $name = $total")
 
 }

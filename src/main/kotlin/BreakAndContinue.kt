@@ -1,6 +1,6 @@
 fun main() {
 
-    keyBreak()
+//    keyBreak()
     keyContinue()
 
 }
@@ -25,8 +25,8 @@ fun keyBreak() {
 
 fun keyContinue() {
 
-    // 1 % 2 == 1 --> gajil
-    // 1 % 2 == 0 --> genap
+    // 1 % 2 == 1 --> gajil (akan menghentikan gajil, yang di cetak genap)
+    // 1 % 2 == 0 --> genap (akan menghentikan genap, yang di cetak ganjil)
 
     for (i in 1..100) {
         if (i % 2 == 1) {
